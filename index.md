@@ -1,7 +1,10 @@
 ---
 title: Verovio Humdrum Viewer 
+lang: pl
 author: Craig Stuart Sapp
+translator: Marcin Konik
 creation_date: 3 Mar 2017
+translation_date: 1 Jan 2019
 last_updated: 4 Mar 2017
 tags: [getting_started]
 sidebar: main_sidebar
@@ -10,14 +13,14 @@ permalink: index.html
 summary: 
 ---
 
-
-Verovio Humdrum Viewer is an online digital music editor and
-interactive notation rendering interface for Humdrum files, located at
-[http://verovio.humdrum.org](http://verovio.humdrum.org).  See the
-[Getting started](/interface/getting_started) page for a tutorial on
-using the VHV interface, or browse through pages on the website by
-clicking on the headings in the sidebar menu to the left (or above),
-which is organized by topic:
+Verovio Humdrum Viewer (VHV) to edytor muzyczny działający online w przeglądarce
+internetowej. VHV za pomocą swojego interfejsu pozwala na interaktywne renderowanie 
+partytury na podstawie pliku w formacie Humdrum znajdujacych się na stronie
+[http://verovio.humdrum.org](http://verovio.humdrum.org). Zobacz także
+stronę [Jak zacząć](/interface/getting_started) aby zapoznać się z samouczkami
+dotyczącymi używania interfejsu VHV, lub przewertuj strony dokumentacji
+za pomocą menu bocznego lub nawigacji na górze strony. Strony pomocy 
+zostały ułożonwe według tematów:
 
 <style>
 
@@ -33,43 +36,39 @@ dd {
 
 </style>
 
-User interface
-: A description of the VHV web interface and how to use it.
+Interfejs użytkownika
+: Opis interfejsu VHV oraz sposobów jego używania.
 
-Commands
-: A list of keyboard commands for interacting with the VHV interface.
+Komendy
+: Lista skrótów klawiaturowych pozwalających na interakcję z interfejsem VHV.
 
-Graphic editing
-: A description of editing commands for altering the music notation graphically.
+Edytowanie graficzne
+: Opis działań pozwalających na edytowanie notacji muzycznej w edytorze graficznym.
 
-Filters
-: Filters are embedded commands within data that modify the data.
+Filtry
+: Filtry, które po zastosowaniu modyfikują dane.
 
-Repertories
-: A description of online musical repertories available for display in VHV.
+Zasoby
+: Opis muzycznych zasobów dostępnych online, które mogą być użyte w VHV.
 
-Repertories
-: A description of online musical repertories available for display in VHV.
+Kodowanie Humdrum
+: Tematy związane z różnymi aspektami zapisu muzycznego w składni Humdrum,
+w większości bezpośrednio powiązane z możliwościami VHV. Zobacz stronę [Jak zacząć](/humdrum/getting_started) 
+aby zapoznać się z interaktywnym samouczkiem dotyczącym kodowania muzyki w formacie Humdrum.
+Bardziej szczególowa dokumentacja formatu znajduje się na stronie [Humdrum documentation](http://www.humdrum.org).
 
-Humdrum encoding
-: Topics about representing musical features in the Humdrum syntax,
-mostly advanced topics related to VHV features.  See the [getting
-started](/humdrum/getting_started) page for an interactive tutorial on
-encoding music in the Humdrum format.  More complete documentation can
-be found at [Humdrum documentation website](http://www.humdrum.org).
+mojeVHV
+: Instrukcje i przykładowe użycia programu [Verovio](http://www.verovio.org)
+i [Humdrum](http://www.humdrum.org) w Twoich własnych projektaach.
 
-myVHV
-: Instructions and demos for using [Verovio](http://www.verovio.org) and 
-[Humdrum](http://www.humdrum.org) for your own projects.
+Utrzymanie
+: Tematy związane z tworzeniem i utrzymaniem tej strony. 
 
-Maintenance
-: Topics related to creating pages and maintaining this website.
-
-Indexes
-: Lists of pages by tag category.
+Indeksy
+: Lista stron według kategorii tagów.
 
 
-## Participants ##
+## Współtwórcy ##
 
 <style>
 
@@ -83,32 +82,32 @@ ul.brief li {
 
 <dl>
 <dt>Craig Stuart Sapp</dt>
-<dd>Creator</dd>
+<dd>Twórca</dd>
 <dt>Alex Morgan</dt>
 <dd>
-<ul class="brief"> <li> dissonance labeling algorithms in the <i><a href="/filters/dissonant">dissonant</a></i> filter</li> <li> cadential suspension definitions in the <i><a href="/filters/cint">cint</a></i> filter </li> </ul>
+<ul class="brief"> <li> algorytmy do oznaczania dysonansów za pomocą filtra <i><a href="/filters/dissonant">dissonant</a></i> </li> <li> definicje zawieszeń kadencyjnych w filtrze <i><a href="/filters/cint">cint</a></i> </li> </ul>
 </dd>
 <dt>Piotr Szyngiera</dt>
 <dd>
 <ul class="brief">
-<li> Humdrum syntax validation for the ace editor</li>
-<li> <a href="/interface/edit_modes">Humdrum syntax highlighting</a> </li> 
+<li> walidacja poprawności składni Humdrum w edytorze ace</li>
+<li> <a href="/interface/edit_modes">Podświetlanie składni Humdrum</a> </li> 
 </ul>
 </dd>
 </dl>
 
-Non-programmers can participate by submitting <a
-href="https://github.com/humdrum-tools/verovio-humdrum-viewer/issues">bug
-reports and feature requests</a> for the VHV web interface.  Reports for <a
-href="/filters">filters</a> should preferably be submitted to <a
-href="https://github.com/craigsapp/humlib/issues">humlib issues</a>, and reports
-for graphical notation should be submitted to 
-<a href="https://github.com/rism-ch/verovio/issues">verovio issues</a>.
-Most VHV documentation pages have editing buttons that can be used to
-fix typos or add content, if you have a <a
-href="https://github.com">Github</a> account.
+Nie-programiści mogą uczestnoczyć w projekcie poprzez zgłaszanie
+<a href="https://github.com/humdrum-tools/verovio-humdrum-viewer/issues">błędów
+oraz próśb o nowe opcje</a> dla interfejsu VHV. Raport błędów dla
+<a href="/filters">filtrów</a> powinny być zgłaszane do <a
+href="https://github.com/craigsapp/humlib/issues">humlib</a>, a raporty
+błędów oraz poprawki do edytora graficznego do
+<a href="https://github.com/rism-ch/verovio/issues">verovio</a>.
+Większa część stron dokumentacji VHV posiada przyciski, które mogą
+być użyte w celu poprawiania literówek lub dodawania treści, przez osoby
+posiadająceo konto na <a href="https://github.com">Githubie</a>.
 
-### Major software components ###
+### Główne składniki oprogramowania ###
 
 <dl>
 
