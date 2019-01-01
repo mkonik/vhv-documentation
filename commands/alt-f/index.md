@@ -1,16 +1,16 @@
 ---
 title: <span class='keypress'>alt-f</span>
-lang: en
+lang: pl
 ref: commands-alt-f
 author: Craig Stuart Sapp
-translator: 
+translator: Marcin Konik 
 creation_date: 5 Mar 2017
-translation_date: 
+translation_date: 1 Jan 2019
 last_updated: 5 Mar 2017
 tags: [all, commands]
 sidebar: main_sidebar
-keywords: interface commands freeze notation
-summary: "The <span class='keypress'>alt-f</span> command toggles freezing/unfreezing dynamic notation rendering."
+keywords: polecenia interfejsu blokowanie renderowania notacji
+summary: "Skrót <span class='keypress'>alt-f</span> blokuje/odblokowuje dynamiczne renderowanie notacji muzycznej."
 permalink: /commands/alt-f/index.html
 ---
 
