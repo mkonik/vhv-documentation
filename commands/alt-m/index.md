@@ -35,8 +35,8 @@ wyświetlane są dane MEI:
 
 {% include image.html
 	file="mei-data.gif"
-	alt="viewing MEI data."
-	caption="Switching the text editor to MEI mode after typing some Humdrum data."
+	alt="wyświetlanie danych MEI"
+	caption="Przełączanie edytora tekstowego do trybu MEI po wprowadzeniu danych."
 %}
 
 
