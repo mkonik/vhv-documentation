@@ -86,9 +86,10 @@ który jest oznaczony jako `original-clef`. Domyślnie w tym przypadku program n
    </staffGrp>
 </scoreDef>
 ```
-In the verovio JavaScript toolkit, the option `appXPathQuery` can be given to the
-toolkit to run an XPath command on `<app>` data in the MEI input file. To select
-the original clefs, the options are set to:
+
+W pakiecie narzędzi verovio JavaScript opcja "appXPathQuery" może zostać przekazana do zestawu narzędzi,
+aby uruchomić polecenie XPath na danych `<app>` w pliku wejściowym MEI. Aby wybrać oryginalne klucze,
+opcje są ustawione na:
 
 ```javascript
 var options = {
@@ -98,22 +99,18 @@ var options = {
       appXPathQuery: "./rdg[contains(@label, 'original-clef')]"
    };
 ```
+W tym przypadku zapytanie [XPath] (https://en.wikipedia.org/wiki/XPath) wyszukuje fragment zawierający
+etykietę atrybutu, która ma wartość `original-clef`.
 
-In this case the [XPath](https://en.wikipedia.org/wiki/XPath) query searches for the
-reading that contains an attribute label which has the value `original-clef`.
-
-The [command-line](/myvhv/command_line) equivalent to the above options would be:
+[Wiersz polecenia] (/myvhv/command_line) równoważny powyższym opcjom będzie wyglądał następująco:
 
 ```bash
 humcat h://chorales/chor074.krn | verovio - -o chor074.svg -f humdrum -w 2000 -h 2500 --app-xpath-query="./rdg[contains(@label, 'original-clef')]"
 ```
+Jest to podobne do zastosowania narzędzi [strophe](http://www.humdrum.org/Humdrum/commands/strophe.htm) lub [thru](http://www.humdrum.org/Humdrum/commands/thru.html)
+do danych Humdrum, chociaż system `*oclef` jest szczególnym przypadkiem, który nie wymaga używania *strophe* lub *thru*.
 
-This is similar to using [strophe](http://www.humdrum.org/Humdrum/commands/strophe.html)
-and/or [thru](http://www.humdrum.org/Humdrum/commands/thru.html) in Humdrum data,
-although the `*oclef` system is a special case that does not require
-using *strophe* or *thru*.
-
-Here is the equivalent using *thru*:
+Oto równoważne działanie przy użyciu *thru*:
 
 ```
 **kern
@@ -133,19 +130,19 @@ Here is the equivalent using *thru*:
 ...
 ```
 
-Then to use modern clefs:
+Następnie, aby użyć współczesnych kluczy:
 
 ```bash
 thru chor074-thru.krn | verovio - -o chor074-modern.svg
 ```
 
-and original clefs:
+oraz oryginalnych kluczy:
 
 ```bash
 thru -v original-clefs chor074-thru.krn | verovio - -o chor074-original.svg
 ```
 
-Here is similar functionality using *strophe*:
+Poniżej podobna funkcjonalność z użyciem *strophe*:
 
 <style>
 pre {
@@ -173,13 +170,13 @@ pre {
 ...
 ```
 
-To unpack the modern version with strophe:
+Aby wyodrębnić współczesne klucze za pomocą *strophe*:
 
 ```bash
 strophe -x modern chor074-thru.krn | verovio - -o chor074-modern.svg
 ```
 
-To unpack the original-clef version with strophe:
+Aby wyodrębnić oryginalne klucze za pomocą *strophe*:
 
 ```bash
 strophe -x original chor074-thru.krn | verovio - -o chor074-original.svg
