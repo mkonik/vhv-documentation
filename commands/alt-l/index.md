@@ -26,9 +26,9 @@ krzyżują się w partyturze.
 	caption="Funkcja kolorowania dodatkowych warstw w partyturze."
 %}
 
-Poniżej umieszczono przykład ilustrujący działanie funkcji <span class="keypress">alt-l</span>:
+Poniżej umieszczono przykład ilustrujący działanie funkcji <span class="keypress">alt-l</span> w partyturze:
 
-{% include image.html
+{% include image.html 
 	file="show-layers.gif"
 	alt="kolorowanie warstwy partytury"
 	max-width="100%"
