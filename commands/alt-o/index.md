@@ -22,7 +22,7 @@ Poniższy przykład ilustryje działanie funkcji:
 	file="original-clefs.gif"
 	alt="wyświetlanie starych/nowych kluczy"
 	max-width="100%"
-	caption="Efekt zastosowania skrótu <span class='keypress'>alt-o</span> przełącza widok pomiędzy "starymi" i współczesnymi kluczami."
+	caption="Efekt zastosowania skrótu <span class='keypress'>alt-o</span> przełącza widok pomiędzy starymi i współczesnymi kluczami."
 %}
 
 Ta funkcja programu jest przydatna w sytuacji, gdy oryginalne klucze,
