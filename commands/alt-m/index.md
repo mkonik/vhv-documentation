@@ -27,9 +27,9 @@ Kliknięciena wybrany element partytury w edytorze graficznym spowoduje,
 mu miejsca w kodzie MEI. Należy pamiętać, że wprowadzanie zmian w edytorze
 graficznym nie pozwala na zmianę kodu MEI.
 
-Możesz wrócić do pierwotnego widodku kodu Humdrum w edytorze tekstowym
-naciskająć kombinację klawiszy <span class="keypress">alt-h</span>. Pamietaj
-jednak, że wszelkie zmiany w kodzie MEI zostaną utracone. Poniżej można zbaczyć
+Możesz wrócić do pierwotnego widoku kodu Humdrum w edytorze tekstowym
+naciskając kombinację klawiszy <span class="keypress">alt-h</span>. Pamiętaj
+jednak, że wszelkie zmiany w kodzie MEI zostaną utracone. Poniżej można zobaczyć
 jak wpisuje się do edytora kod Humdrum. Po naciśnięciu <span class="keypress">alt-m</span>
 wyświetlane są dane MEI:
 
