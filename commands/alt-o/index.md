@@ -49,7 +49,7 @@ za pomocą `oclef` informację na temat kluczy, wciśnięcie <span class="keypre
 nie przyniesie żadnego efektu.
 
 Spróbuj zastosować <span class="keypress">alt-o</span> do
-[chorałów Bacha](http://verovio.humdrum.org/?file=chorales/chor074.krn), jak na powyższym przykładzie.
+chorałów [Bacha](http://verovio.humdrum.org/?file=chorales/chor074.krn), jak na powyższym przykładzie.
 
 ## Uwagi dotyczące wdrażania funkcji ##
 
